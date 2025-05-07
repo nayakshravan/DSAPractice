@@ -2,5 +2,54 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/DSA_Project/.vs/DSA_Project/v17/.suo
-/DSA_Project/.vs/DSA_Project/v17/DocumentLayout.json
+## Build results
+bin/
+obj/
+Debug/
+Release/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+
+## Visual Studio
+.vs/
+
+## Rider
+.idea/
+
+## Ignore backup and cache
+*.backup.json
+*.cache
+*.FileListAbsolute.txt
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Other files to ignore
+*.dbmdl
+*.bak
+*.log
+*.pdb
+*.cache
+*.vsix
+*.nupkg
+*.DS_Store
+Thumbs.db
+
+## NuGet
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+*.nuget.cache
+
+## Others
+*.tgz
+node_modules/
+
