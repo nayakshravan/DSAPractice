@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\shravan\\prog\\csharp coursera\\DSA_Project\\DSA_Project\\DSA_Project.csproj",
+      "projectUniqueName": "C:\\shravan\\prog\\my git codes\\DSAPractice\\DSA_Project\\DSA_Project\\DSA_Project.csproj",
       "projectName": "DSA_Project",
-      "projectPath": "C:\\shravan\\prog\\csharp coursera\\DSA_Project\\DSA_Project\\DSA_Project.csproj",
+      "projectPath": "C:\\shravan\\prog\\my git codes\\DSAPractice\\DSA_Project\\DSA_Project\\DSA_Project.csproj",
       "packagesPath": "C:\\Users\\preet\\.nuget\\packages\\",
-      "outputPath": "C:\\shravan\\prog\\csharp coursera\\DSA_Project\\DSA_Project\\obj\\",
+      "outputPath": "C:\\shravan\\prog\\my git codes\\DSAPractice\\DSA_Project\\DSA_Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
