@@ -12,3 +12,18 @@ C:\shravan\prog\csharp coursera\DSA_Project\DSA_Project\obj\Debug\net8.0\refint\
 C:\shravan\prog\csharp coursera\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.pdb
 C:\shravan\prog\csharp coursera\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.genruntimeconfig.cache
 C:\shravan\prog\csharp coursera\DSA_Project\DSA_Project\obj\Debug\net8.0\ref\DSA_Project.dll
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.exe
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.deps.json
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.runtimeconfig.json
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.dll
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.pdb
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.AssemblyInfoInputs.cache
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.AssemblyInfo.cs
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.csproj.CoreCompileInputs.cache
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.sourcelink.json
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.dll
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\refint\DSA_Project.dll
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.pdb
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.genruntimeconfig.cache
+C:\shravan\prog\my git codes\DSAPractice\DSA_Project\DSA_Project\obj\Debug\net8.0\ref\DSA_Project.dll
