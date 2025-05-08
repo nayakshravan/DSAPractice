@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DSA_Project;
+using System;
 using System.Diagnostics;
 
 class Program
@@ -30,6 +31,20 @@ class Program
         {
             Console.WriteLine("Element " + target + " not found!");
         }
+
+        BinaryTree tree = new BinaryTree();
+
+        // Insert nodes into the tree
+        tree.Insert(50);
+        tree.Insert(30);
+        tree.Insert(70);
+        tree.Insert(20);
+        tree.Insert(40);
+        tree.Insert(60);
+        tree.Insert(80);
+
+        Console.WriteLine("In-order traversal of the binary tree:");
+        tree.InOrderTraversal(tree.Root);
     }
 
     static void BubbleSort(int[] arr)

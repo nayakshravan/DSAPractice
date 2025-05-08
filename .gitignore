@@ -1,55 +1,41 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿## Ignore all bin and obj folders in all subdirectories
+**/bin/
+**/obj/
 
-## Build results
-bin/
-obj/
-Debug/
-Release/
-
-## User-specific files
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-## VS Code
-.vscode/
-
-## Visual Studio
-.vs/
-
-## Rider
-.idea/
-
-## Ignore backup and cache
-*.backup.json
-*.cache
-*.FileListAbsolute.txt
-
-## ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-## Other files to ignore
-*.dbmdl
-*.bak
-*.log
+## Ignore build artifacts
+*.dll
+*.exe
 *.pdb
 *.cache
-*.vsix
-*.nupkg
-*.DS_Store
-Thumbs.db
+*.log
+*.bak
 
-## NuGet
+## Ignore user-specific and temp files
+*.user
+*.suo
+*.tmp
+*.vspscc
+*.vssscc
+*.FileListAbsolute.txt
+*.GeneratedMSBuildEditorConfig.editorconfig
+
+## Ignore .vs and build directories
+.vs/
+.vscode/
+.idea/
+**/.vs/
+**/.vscode/
+**/.idea/
+
+## NuGet and package files
 project.lock.json
 project.assets.json
 *.nuget.props
 *.nuget.targets
-*.nuget.cache
+*.nupkg
+*.tgz
 
 ## Others
-*.tgz
+Thumbs.db
+.DS_Store
 node_modules/
-
