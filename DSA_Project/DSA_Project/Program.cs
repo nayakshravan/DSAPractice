@@ -1,6 +1,7 @@
 ﻿using DSA_Project;
 using System;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 class Program
 {
@@ -10,6 +11,8 @@ class Program
         Random rand = new Random();
         //int[] numbers = Enumerable.Range(1, 150000).OrderBy(x => rand.Next()).ToArray();
         Stopwatch stopwatch = new Stopwatch();
+
+        #region Sorting and Search algorithm calls
         stopwatch.Start();
         //BubbleSort(numbers);
         QuickSort(numbers,0, numbers.Length-1);
@@ -31,7 +34,9 @@ class Program
         {
             Console.WriteLine("Element " + target + " not found!");
         }
+        #endregion
 
+        #region Binary tree implementation
         BinaryTree tree = new BinaryTree();
 
         // Insert nodes into the tree
@@ -45,6 +50,20 @@ class Program
 
         Console.WriteLine("In-order traversal of the binary tree:");
         tree.InOrderTraversal(tree.Root);
+        #endregion
+
+        #region Priority based Task Scheduler
+        Console.WriteLine("\n");
+        DSA_Project.TaskScheduler scheduler = new DSA_Project.TaskScheduler();
+
+        // Sample tasks
+        scheduler.AddTask(new TaskItem("Task A", priority: 3, executionTime: 300));
+        scheduler.AddTask(new TaskItem("Task B", priority: 1, executionTime: 100));
+        scheduler.AddTask(new TaskItem("Task C", priority: 2, executionTime: 200));
+        scheduler.AddTask(new TaskItem("Task D", priority: 4, executionTime: 150));
+
+        scheduler.ExecuteAllTasks();
+        #endregion
     }
 
     static void BubbleSort(int[] arr)
