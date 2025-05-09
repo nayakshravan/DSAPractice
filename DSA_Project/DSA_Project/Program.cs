@@ -64,6 +64,36 @@ class Program
 
         scheduler.ExecuteAllTasks();
         #endregion
+
+        #region Debugged Task Execution
+        Console.WriteLine("\n *** Task Execution Started...\n");
+
+        List<TaskItem> tasks = new List<TaskItem>
+            {
+                new TaskItem("Task A", 1, 500),
+                new TaskItem("Task B", 2, 700),
+                new TaskItem("Task C", 3, 300),
+                new TaskItem("Task D", 2, 400)
+            };
+
+        // Sort by priority (lower = higher priority)
+        tasks.Sort((a, b) => a.Priority.CompareTo(b.Priority));
+
+        foreach (var task in tasks)
+        {
+            try
+            {
+                ExecuteTask(task);
+                LogInfo($"Task '{task.Name}' completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                LogError($"Task '{task.Name}' failed. Error: {ex.Message}");
+            }
+        }
+
+        Console.WriteLine("\n *** All tasks processed.");
+        #endregion
     }
 
     static void BubbleSort(int[] arr)
@@ -169,5 +199,29 @@ class Program
             }
         }
         return -1;
+    }
+
+    static void ExecuteTask(TaskItem task)
+    {
+        LogInfo($"Executing '{task.Name}' (Priority: {task.Priority}, Time: {task.ExecutionTime}ms)");
+
+        // Simulate task execution time
+        Thread.Sleep(task.ExecutionTime);
+
+        // Randomly simulate a failure
+        if (new Random().Next(0, 4) == 0) // ~25% chance to fail
+            throw new Exception("Simulated runtime failure.");
+    }
+
+    static void LogInfo(string message)
+    {
+        Console.WriteLine($"[INFO {DateTime.Now:HH:mm:ss}] {message}");
+    }
+
+    static void LogError(string message)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine($"[ERROR {DateTime.Now:HH:mm:ss}] {message}");
+        Console.ResetColor();
     }
 }
